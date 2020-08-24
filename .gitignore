@@ -1,0 +1,7 @@
+coverage
+node_modules
+**.log
+**.zip
+pwa-server
+pwa-shell
+test-data/outputs

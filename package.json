@@ -1,0 +1,17 @@
+{
+  "name": "@sonicoriginalsoftware/unzipper",
+  "version": "1.0.0",
+  "description": "Backend/API/library for unzipping zip files",
+  "main": "unzip.js",
+  "type": "module",
+  "directories": {"doc": "docs" },
+  "scripts": {
+    "test": "npx -n '--experimental-json-modules' @sonicoriginalsoftware/jester"
+  },
+  "keywords": [
+    "unzip",
+    "zip"
+  ],
+  "author": "Nathan Blair",
+  "license": "ISC"
+}
