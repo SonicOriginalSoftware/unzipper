@@ -6,8 +6,6 @@ This package is meant as a library and toolkit to build single-page progressive 
 
 # Another unzipper?
 
-No. And yes. This framework tries to sift down the boilerplate and dependency hell by being (almost) fully self-contained. Its not "another javascript front-end framework"; this actually builds forward-looking progressive web apps.
-
 I wrote this library from scratch and submitted it back to the community to do with what they see fit, seeing as the node maintainers are too preoccupied to build something into the standard library.
 
 "Why didn't you just use an existing library!?!?!?!" Well, because the ones that are popular are abandoned and the ones that aren't abandoned I don't like! Simple as that!
