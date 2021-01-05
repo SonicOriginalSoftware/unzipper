@@ -1,8 +1,21 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {},
+  "launch": {
+    "configurations": [
+      {
+        "name": "Debug Tests",
+        "request": "launch",
+        "runtimeArgs": ["test"],
+        "runtimeExecutable": "npm",
+        "skipFiles": ["<node_internals>/**"],
+        "type": "pwa-node"
+      }
+    ],
+    "compounds": []
+  }
 }

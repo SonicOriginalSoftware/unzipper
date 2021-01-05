@@ -55,7 +55,7 @@ export class LocalFile {
    */
   constructor(buffer, start_offset) {
     if (buffer.readUInt32LE(start_offset) !== LocalFile.#LOCAL_FILE_SIGNATURE) {
-      throw new EvalError("Central Directory signature does not match!")
+      throw new EvalError("Local file signature does not match!")
     }
 
     this.#start_offset = start_offset
